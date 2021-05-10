@@ -122,3 +122,41 @@ nav ul li a:hover {
     background: #fdbe00;
     transform: scale(1.2);
 }
+
+/* About */
+#about {
+    width: 100%;
+    height: 130vh;
+    background: #000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px 5% 0 5%;
+    position: relative;
+}
+
+.about-img {
+    width: 50%;
+}
+
+.about-img img {
+    width: 500px;
+}
+
+.about-text {
+    width: 45%;
+    color: #fff;
+}
+
+.about-text h1 {
+    font-size: 2.2rem;
+    font-weight: 500;
+    color: #e9c966;
+    margin: 0;
+    border-bottom: 2px solid #e8c966;
+}
+
+.about-text h3 {
+    font-size: 1.6rem;
+    color: #e9c966;
+}
